@@ -18,6 +18,9 @@
         <li>
             Advisory
         </li>
+        <li>
+            Standards Compliance
+        </li>
 
     </ul>
 </div>
