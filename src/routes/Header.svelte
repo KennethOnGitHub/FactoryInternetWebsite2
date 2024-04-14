@@ -14,7 +14,9 @@
 
 <style>
     header {
+        position: fixed;
         display: flex;
+        width: 100%;
         background-color: #086ad8;
         padding: 10px 0px 10px 20px;
     }
@@ -23,6 +25,11 @@
         display: flex;
         flex-grow: 1;
         justify-content: space-evenly;
+        align-items: center;
         color: white;
+    }
+
+    a {
+        text-decoration: none;
     }
 </style>
