@@ -39,7 +39,6 @@
     body {
         /* background-image: linear-gradient(90deg, #010B26, #611226); */
         
-        
         display: grid;
         grid-template-columns: 1fr;
     }

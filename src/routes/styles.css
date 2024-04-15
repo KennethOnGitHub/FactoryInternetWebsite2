@@ -16,3 +16,8 @@
     font-family: Lato;
     color: white;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+/* idk why this applies it to the HTML, just messed around and it worked, don't touch it ig */

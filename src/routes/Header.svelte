@@ -6,8 +6,8 @@
 <header>
     <a href="https://www.factoryinternet.co.uk/"> <img src =  {logo} alt = 'Factory Internet'> </a>
     <nav>
-        <a href="#1">Threats</a>
-        <a href="#2">Home</a>
+        <a href="#2">Threats</a>
+        <a href="#1">Home</a>
         <a href="#3">What We Do</a>
     </nav>
 </header>
