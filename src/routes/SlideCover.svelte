@@ -14,6 +14,7 @@
         text-align: center;
         width: 100%;
         height: 100%;
+        transition: filter 0.1s;
     }
 
     .active {
