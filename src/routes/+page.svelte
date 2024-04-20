@@ -33,6 +33,11 @@
     <WhatWeDo>
         <ServicesBox />
     </WhatWeDo>
+
+    <footer>
+        <p>Made by Kenneth Knight</p>
+
+    </footer>
 </body>
 
 <style>
@@ -45,6 +50,10 @@
 
     h1 {
         color: black
+    }
+
+    footer p {
+        color: black;
     }
 </style>
 
