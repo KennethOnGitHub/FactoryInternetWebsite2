@@ -36,6 +36,11 @@
         text-decoration: none;
         padding: 5px;
         border-radius: 4px;
+        opacity: 80%;
+    }
+
+    a:hover {
+        opacity: 100%;
     }
 
     .highlighted {
