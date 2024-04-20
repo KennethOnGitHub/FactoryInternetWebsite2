@@ -45,7 +45,7 @@
         flex-direction: column;
         align-items: flex-start;
         background-color: #00000060;
-        width: 20%;
+        width: 320px;
         border-radius: 5%;
         padding: 0.3em;
         font-size: 1.4em;
