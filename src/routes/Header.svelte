@@ -44,6 +44,7 @@
     }
 
     .highlighted {
+        opacity: 100%;
         background-color: white;
         color: black;
     }
