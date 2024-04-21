@@ -1,4 +1,5 @@
 <script>
+    import { createEventDispatcher } from "svelte";
     import SlideCover from "./SlideCover.svelte";
 
     export let title = "NO TITLE!";
@@ -6,6 +7,8 @@
     export let text = "text fail!!!";
 
     let mode = 'active';
+
+    const dispatch = createEventDispatcher();
 </script>
 
 <div on:mouseenter={() => {mode = 'inactive'}} on:mouseleave = {() => {mode = 'active'}}>
@@ -21,7 +24,6 @@
         border: 4px solid #086ad8;
         border-radius: 25px;
         padding: 10px;
-        margin: 1%;
     }
 
     p {

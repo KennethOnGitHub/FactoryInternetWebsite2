@@ -1,5 +1,5 @@
 <script>
-    import Carousel from './Carousel.svelte';
+
     import CostCounter from './CostCounter.svelte';
     import Hackboxes from './Hackboxes.svelte';
     import Header from './Header.svelte';
@@ -25,10 +25,7 @@
         <Hackboxes />
     </HomePage>
     
-    <Threats>  
-        <h1 class = "header" id="2">Meet some threats</h1>
-        <Carousel />
-    </Threats>
+    <Threats />  
     
     <WhatWeDo>
         <ServicesBox />
@@ -46,10 +43,7 @@
         
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    h1 {
-        color: black
+        /* overflow-x: hidden; */
     }
 
     footer p {
