@@ -14,15 +14,11 @@
         cybersecurity experts can find vulnerabilities before threat actors do. This could, for example, involve testing inputs of systems to find vulnerabilities to injection attacks or attempting to social engineer members of
         your organisation to find 'human' vulnerabilities.`},
 
-        {name: "Threat Intel", mode:"inactive", content: `Threat Intel - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-        like Aldus PageMaker including versions of Lorem Ipsum`},
+        {name: "Threat Intel", mode:"inactive", content: `Threat Intelligence is detailed information on threat actors used by organisations to proactively fight threats. This information includes threat actors' motivations,
+        targets, attack patterns, and attack techniques. Threat Intel empowers organisations to make decisions guided by data. With data on threat actors' possible next moves, organisations 
+        can be more active in the fight for security.`},
 
-        {name: "Consultancy", mode:"inactive", content: `Consultancy- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-        like Aldus PageMaker including versions of Lorem Ipsum`},
+        {name: "Consultancy", mode:"inactive", content: `Factory can aide your IT teams as they build systems, giving direction on how to effictively secure systems from attacks //write more`},
 
         {name: "Standards Compliance", mode:"inactive", content: `Standards Compliance - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
