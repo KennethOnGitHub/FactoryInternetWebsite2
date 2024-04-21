@@ -1,17 +1,18 @@
 <script>
     const services = [
-        {name: "SIEM", mode:"active", content: `Security Information and Event Management, shortened to SIEM and pronounced "sim", is software that locates threats by pooling in data from various sources in an IT system, analysing
-        the data to locate potential threats, and compiling this data into a single afiosagjia `},
+        {name: "SIEM", mode:"active", content: `Security Information and Event Management, shortened to SIEM and pronounced "sim", is software that locates threats by pooling in data from various sources in an IT system and 
+        analysing the data to find suspicious patterns to locate possible threats. Security teams working for an organisation can therefore respond to threats more quickly. SIEM is integral for protecting systems; hundreds to thousands of 
+        unconnected alerts could be generated from isolated tools, making it difficult for security teams to locate and fight the real threats.`},
 
-        {name: "Managed SOC", mode:"inactive", content: `SOC - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-        like Aldus PageMaker including versions of Lorem Ipsum`},
+        {name: "Managed SOC", mode:"inactive", content: `A Security Operations Center is a team of cybersecurity professionals that continuously monitors and manages the security of an organisations IT systems. A SOC works non-stop
+        to detect and prevent threats before they cause harm, investigate suspicious activity, and respond to incidents if they do happen. After any incidents, a SOC team works to patch vulnerabilities in a system and restore it
+        to operational condition. \n
+        Using an external Managed SOC compared to an in-house SOC allows your organisation to focus on its primary goals, leaving the burden of managing security to the experts.`},
+        // no clue why the newline doesn't work, no time to figure it out
 
-        {name: "Pentesting", mode:"inactive", content: `PEN - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-        like Aldus PageMaker including versions of Lorem Ipsum`},
+        {name: "Pentesting", mode:"inactive", content: `Penetration testing is a method of identifying critical security flaws in a system by simulating a cyberattack on a system. By getting into the shoes of threat actors,
+        cybersecurity experts can find vulnerabilities before threat actors do. This could, for example, involve testing inputs of systems to find vulnerabilities to injection attacks or attempting to social engineer members of
+        your organisation to find 'human' vulnerabilities.`},
 
         {name: "Threat Intel", mode:"inactive", content: `Threat Intel - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 

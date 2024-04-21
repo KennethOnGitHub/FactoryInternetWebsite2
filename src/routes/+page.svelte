@@ -32,7 +32,15 @@
     </WhatWeDo>
 
     <footer>
-        <p>Made by Kenneth Knight</p>
+        <h2>
+            Contact Us
+        </h2>
+        <p>High Weald House, Bexhill-On-Sea, East Sussex, TN39 5ES </p>
+        <a href="mailto:sales@factoryinternet.co.uk">sales@factoryinternet.co.uk</a>
+        <p>(+44)1424 540175</p>
+        <a href = 'www.factoryinternet.co.uk'>www.factoryinternet.co.uk</a>
+
+        <p>Webpage made by Kenneth Knight</p>
 
     </footer>
 </body>
@@ -43,11 +51,11 @@
         
         display: grid;
         grid-template-columns: 1fr;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 
-    footer p {
-        color: black;
+    footer{
+        background-color: darkgrey;
     }
 </style>
 

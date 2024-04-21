@@ -1,85 +1,76 @@
 <script>
-    import Slide from './Slide.svelte';
+    import rightArrow from '$lib/assets/right-arrow.svg';
 
-    import malwareImg from '$lib/assets/Factory-Internet-Logo-2019-220x47.webp'
-    import socialEngineeringImg from '$lib/assets/Factory-Internet-Logo-2019-220x47.webp'
-    import denialOfServiceImg from '$lib/assets/Factory-Internet-Logo-2019-220x47.webp'
-    import vulnerabilitiesImg from '$lib/assets/Factory-Internet-Logo-2019-220x47.webp'
-    
-    const malware = {title: "Malware", src: malwareImg, text:'Lorem isupm GANNNNNG 1 The industrial revolution and its consequences were realllll interesting guys'}
-    const socialEngineering = {title: "Social Engineering", src: socialEngineeringImg, text:'Lorem isupm GANNNNNG 2'}
-    const denialOfService = {title: "Denial-Of-Service", src: denialOfServiceImg, text:'Lorem isupm GANNNNNG 3'}
-    const vulnerabilities = {title: "Vulnerabilites", src: vulnerabilitiesImg, text:'Lorem isupm GANNNNNG 4'}
-    
-    const Slides = [malware, socialEngineering, denialOfService, vulnerabilities]
+    export let CarouselSlides= [
+        {title: "Virus", content: ""},
+        {title: "Keylogger", content: ""},
+        {title: "Worm", content: ""},
+        {title: "Trojan", content: ""},
+        {title: "Spyware", content: ""},
+        {title: "Ransomware", content: ""},
+    ];
 
-    let state = "nav-mode";
-    console.log("test");
-
+    let position = 0;
+    const displayedSlides = 4;
 </script>
 
-<div class = {state + " container"}>
-    <nav>
-        {#each Slides as slide}
-        <button on:click={() => state = slide.title + "-mode"}>
-            <Slide {...slide}/>
-        </button>       
-    {/each}
-    </nav>
+<div class= 'carousel'>
+    <button on:click={() => {if (position > 0) {position -= 1}}}>
+        <img class = 'left' src = {rightArrow} alt = 'Left'>
+    </button>
 
-    <div class = 'wrapper'>
-        <div class = 'content'>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-        </div>
+    <div class = 'slide-container'>
+        {#each CarouselSlides.slice(position, position + displayedSlides) as slide}
+            <div class = 'slide'>
+                <h3>{slide.title}</h3>
+                <p>{slide.content}</p>
+            </div>
+        {/each}
     </div>
 
+    <button on:click={() => {if (position < CarouselSlides.length - displayedSlides) {position += 1}}}>
+        <img src = {rightArrow} alt = 'Right'>
+    </button>
 </div>
 
 <style>
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 200vw;
-        height: 100%;
-        /* not sure why height 100% works tbh, no time to figure it out tho */
-
-        position: relative;
-        left: -100%;
+    .carousel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
     }
 
-    nav {
-        flex-grow: 1;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .slide-container {
+        display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+
+        height: 100%;
+        width: 80%;
+    }
+
+    .slide {
+        height: 100%;
+        border-radius: 5px;
+        padding: 1em;
+        border: solid white 2px;
+        background-color: #ffffff30;
     }
 
     button {
-        background: transparent;
+        height: 40px;
+        width: 40px;
+        background-color: transparent;
         border: none;
         cursor: pointer;
     }
 
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .left {
+        transform: rotate(180deg);
     }
 
-    .content {
-        background-image: linear-gradient(to bottom, #086AD8, #043872);
-        width: 80%;
-        height: 80%;
-        border-radius: 10px;
-        padding: 1em;
-    }
 
-    .nav-mode {
-        left:0;
-    }
 </style>
