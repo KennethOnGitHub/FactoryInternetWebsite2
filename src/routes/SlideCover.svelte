@@ -11,10 +11,16 @@
 
 <style>
     div {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         height: 100%;
         transition: filter 0.1s;
+    }
+
+    img {
+        height: 80%;
     }
 
     .active {
