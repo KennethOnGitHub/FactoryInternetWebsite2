@@ -21,7 +21,8 @@
         {name: "Consultancy", mode:"inactive", content: `Building and maintaining secure systems is a complex task, where the key factor to success is experience. Factory can aide your IT teams as they build systems, 
         giving direction on how to effictively secure systems from attacks using our in-depth expertise`},
 
-        {name: "Standards Compliance", mode:"inactive", content: `//DRAFT!!!!Your digital systems must meet regulations set out by governments to protect users, we can help you ensure that your organisation is safe from being hit by hefty fines.`},
+        {name: "Standards Compliance", mode:"inactive", content: `It is of the utmost importance that your organisation complies with cybersecurity regulations; breaches of regulation can lead to hefty fines and shattered public trust. Factory Internet
+        can provide expertise to give you that peace of mind that your systems check all the regulatory boxes.`},
     ]
 
     /*I REALLY don't like the whole make mode a string that is either active or inactive, but webdev doesn't seem to like having bools and the like*/
@@ -47,6 +48,7 @@
                     <!-- May the lord strike me down, because I wish I were better, this is one of my worst projects quality-wise -->
                 </li>
             {/each}
+            <h2>... and <a href = "https://www.factoryinternet.co.uk/cyber-security/">more</a></h2>
         </ul>
     </div>
 
@@ -90,6 +92,7 @@
         background-color: transparent;
         border: none;
         opacity: 50%;
+        cursor: pointer;
     }
 
     button:hover {
@@ -103,6 +106,11 @@
     button.active {
         font-weight: bold;
         opacity: 100%;
+    }
+
+    h2 {
+        opacity: 50%;
+        font-size: 2em;
     }
 
 

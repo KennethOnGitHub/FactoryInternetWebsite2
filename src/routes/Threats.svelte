@@ -60,8 +60,7 @@
         {title: "Out-of-Date Software", content: 'Software used by an organisation that is not regularly kept up-to-date may contain vulnerabilities easily exploited by threat actors.'},
         {title: "Software Misconfiguration", content: `Software used within a computer system have settings to dictate what functionality is enabled, a misconfiguration could lead to an integral security feature being disabled or a exploitable
         feature being enabled.`},
-        {title: "Spyware", content: ""},
-        {title: "Ransomware", content: ""},
+        {title: "API", content: `An Application Programming Interface allows different pieces of software to communicate with each other. An improperly secured API can result in sensitive data being stolen by threat actors.`},
         ]},
     ]
 
