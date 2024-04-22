@@ -1,14 +1,9 @@
 <script>
     import rightArrow from '$lib/assets/right-arrow.svg';
 
-    export let CarouselSlides= [
-        {title: "Virus", content: ""},
-        {title: "Keylogger", content: ""},
-        {title: "Worm", content: ""},
-        {title: "Trojan", content: ""},
-        {title: "Spyware", content: ""},
-        {title: "Ransomware", content: ""},
-    ];
+    export let CarouselSlides = [];
+    console.log("sides: ")
+    console.log(CarouselSlides);
 
     let position = 0;
     const displayedSlides = 4;

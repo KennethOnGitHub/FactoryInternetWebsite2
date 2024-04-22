@@ -18,12 +18,10 @@
         targets, attack patterns, and attack techniques. Threat Intel empowers organisations to make decisions guided by data. With data on threat actors' possible next moves, organisations 
         can be more active in the fight for security.`},
 
-        {name: "Consultancy", mode:"inactive", content: `Factory can aide your IT teams as they build systems, giving direction on how to effictively secure systems from attacks //write more`},
+        {name: "Consultancy", mode:"inactive", content: `Building and maintaining secure systems is a complex task, where the key factor to success is experience. Factory can aide your IT teams as they build systems, 
+        giving direction on how to effictively secure systems from attacks using our in-depth expertise`},
 
-        {name: "Standards Compliance", mode:"inactive", content: `Standards Compliance - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-        like Aldus PageMaker including versions of Lorem Ipsum`},
+        {name: "Standards Compliance", mode:"inactive", content: `//DRAFT!!!!Your digital systems must meet regulations set out by governments to protect users, we can help you ensure that your organisation is safe from being hit by hefty fines.`},
     ]
 
     /*I REALLY don't like the whole make mode a string that is either active or inactive, but webdev doesn't seem to like having bools and the like*/
