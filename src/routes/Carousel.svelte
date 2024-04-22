@@ -6,6 +6,7 @@
     console.log(CarouselSlides);
 
     let position = 0;
+    //add in position resetting when the user exits the current tab bit
     const displayedSlides = 4;
 </script>
 
