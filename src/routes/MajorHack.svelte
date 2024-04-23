@@ -1,18 +1,7 @@
 <script>
     import { onMount } from 'svelte';
-    import targetLogo from '$lib/assets/Target.jpg';
-    import equifaxLogo from '$lib/assets/Equifax.webp'
-    import yahooLogo from '$lib/assets/Yahoo.webp'
-    import mariottLogo from '$lib/assets/Marriot.jpg'
-    import capitalOneLogo from '$lib/assets/capitalOne.jpg'
 
-    const companyData = [
-        {name: 'Target', lost: '$200 Million', victims: '70 Million', imgSrc: targetLogo},
-        {name: 'Equifax', lost: '$575 Million', victims: '147 Million', imgSrc: equifaxLogo},
-        {name: 'Yahoo', lost: '$117 Million', victims: '3 Billion', imgSrc: yahooLogo},
-        {name: 'Marriot', lost: '$18.4 Million', victims: '500 Million', imgSrc: mariottLogo},
-        {name: 'Capital One', lost: '$190 Million', victims: '100 Million', imgSrc: capitalOneLogo},
-    ]
+    export let companyData;
 
     let index = 0;
 
