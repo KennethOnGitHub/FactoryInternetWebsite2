@@ -10,6 +10,7 @@
     import Threats from './Threats.svelte';
     import WhatWeDo from './WhatWeDo.svelte';
     import './reset.css'
+    import SlideIn from './slideIn.svelte';
     import './styles.css'
 </script>
 
@@ -22,15 +23,17 @@
 
     
     <HomePage>
-
         <Slogan />
-        
         <CostCounter />
-        
-        <Hackboxes />
+        <SlideIn>
+            <Hackboxes />
+        </SlideIn>     
+        <!-- <Hackboxes /> -->
     </HomePage>
     
     <Threats />  
+
+
     
     <WhatWeDo>
         <ServicesBox />

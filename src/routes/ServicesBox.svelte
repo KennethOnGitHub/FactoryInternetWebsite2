@@ -1,4 +1,6 @@
 <script>
+    import SlideIn from "./slideIn.svelte";
+
     const services = [
         {name: "SIEM", mode:"active", content: `Security Information and Event Management, shortened to SIEM and pronounced "sim", is software that locates threats by pooling in data from various sources in an IT system and 
         analysing the data to find suspicious patterns to locate possible threats. Security teams working for an organisation can therefore respond to threats more quickly. SIEM is integral for protecting systems; hundreds to thousands of 
@@ -32,7 +34,6 @@
 
 </script>
 
-
 <div class = 'box'>
     <div class = 'left'>
         <h1>
@@ -56,6 +57,7 @@
         <p>{services[selected].content}</p>
     </div>
 </div>
+
 
 <style>
     div.box {

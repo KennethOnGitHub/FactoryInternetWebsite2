@@ -35,7 +35,6 @@
         {name: 'Uber', lost: '$148 Million', victims: '57 Million', imgSrc: uberLogo},
         {name: 'JP Morgan', lost: 'Cost Undertermined', victims: '76 Million Households', imgSrc: jpMorganLogo},
         {name: 'Home Depot', lost: '$17.5 Million', victims: '50 million', imgSrc: homedepotLogo},
-        {name: 'Marriot', lost: '$18.4 Million', victims: '500 Million', imgSrc: mariottLogo},
         {name: 'Capital One', lost: '$190 Million', victims: '100 Million', imgSrc: capitalOneLogo},
     ]
 
