@@ -1,11 +1,17 @@
 <script>
     import { onMount } from 'svelte';
+    import targetLogo from '$lib/assets/Target.jpg';
+    import equifaxLogo from '$lib/assets/Equifax.webp'
+    import yahooLogo from '$lib/assets/Yahoo.webp'
+    import mariottLogo from '$lib/assets/Marriot.jpg'
+    import capitalOneLogo from '$lib/assets/capitalOne.jpg'
+
     const companyData = [
-        {name: 'Target', lost: '$200 Million', victims: '70 Million', imgSrc: '../../src/lib/assets/Target.jpg'},
-        {name: 'Equifax', lost: '$575 Million', victims: '147 Million', imgSrc: '../../src/lib/assets/Equifax.webp'},
-        {name: 'Yahoo', lost: '$117 Million', victims: '3 Billion', imgSrc: '../../src/lib/assets/Yahoo.webp'},
-        {name: 'Marriot', lost: '$18.4 Million', victims: '500 Million', imgSrc: '../../src/lib/assets/Marriot.jpg'},
-        {name: 'Capital One', lost: '$190 Million', victims: '100 Million', imgSrc: '../../src/lib/assets/CapitalOne.jpg'},
+        {name: 'Target', lost: '$200 Million', victims: '70 Million', imgSrc: targetLogo},
+        {name: 'Equifax', lost: '$575 Million', victims: '147 Million', imgSrc: equifaxLogo},
+        {name: 'Yahoo', lost: '$117 Million', victims: '3 Billion', imgSrc: yahooLogo},
+        {name: 'Marriot', lost: '$18.4 Million', victims: '500 Million', imgSrc: mariottLogo},
+        {name: 'Capital One', lost: '$190 Million', victims: '100 Million', imgSrc: capitalOneLogo},
     ]
 
     let index = 0;

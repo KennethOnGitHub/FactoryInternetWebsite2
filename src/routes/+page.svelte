@@ -43,7 +43,7 @@
         <p>High Weald House, Bexhill-On-Sea, East Sussex, TN39 5ES </p>
         <a href="mailto:sales@factoryinternet.co.uk">sales@factoryinternet.co.uk</a>
         <p>(+44)1424 540175</p>
-        <a href = 'www.factoryinternet.co.uk'>www.factoryinternet.co.uk</a>
+        <a href = 'https://www.factoryinternet.co.uk/'>www.factoryinternet.co.uk</a>
 
         <p>Webpage made by Kenneth Knight</p>
 
