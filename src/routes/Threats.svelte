@@ -64,13 +64,8 @@
         ]},
     ]
 
-
     let navigating = true;
     let contentIndex = 0;
-
-    console.log("content: ");
-    console.log(Topics[contentIndex].content)
-
 </script>
 
 <div class = "threats-page">
