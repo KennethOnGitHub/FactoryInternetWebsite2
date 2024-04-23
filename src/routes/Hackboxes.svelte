@@ -10,7 +10,7 @@
         {name: 'Heartland Payment', lost: '$60 Million', victims: '~134 Million', imgSrc: heartlandLogo},
         {name: 'Anthem', lost: '$40 Million', victims: '78.8 Million', imgSrc: anthemLogo},
         {name: 'Playstation', lost: '$15 Million', victims: '77 Million', imgSrc: playstationLogo},
-        {name: 'Exactis', lost: 'Cost undetermined', victims: '340 Million', imgSrc: exactisLogo},
+        {name: 'Exactis', lost: 'Cost Undetermined', victims: '340 Million', imgSrc: exactisLogo},
     ]
 
     import targetLogo from '$lib/assets/Target.jpg';
