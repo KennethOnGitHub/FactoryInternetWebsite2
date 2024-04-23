@@ -1,4 +1,4 @@
-<h3 id = "1">
+<h3>
     Factory, Cybersecurity for when certainty is a must
 </h3>
 

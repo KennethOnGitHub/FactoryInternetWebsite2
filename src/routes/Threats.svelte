@@ -74,7 +74,7 @@
 </script>
 
 <div class = "threats-page">
-    <h1 class = "header" id="2">Meet some threats</h1>
+    <h1 class = "header" id="Threats">Meet some threats</h1>
 
     <div class = {(navigating? "nav-mode" : "") + " container"}>
         <nav>

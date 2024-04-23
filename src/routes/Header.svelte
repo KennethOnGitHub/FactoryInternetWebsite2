@@ -8,9 +8,9 @@
 <header>
     <a href="https://www.factoryinternet.co.uk/"> <img src =  {logo} alt = 'Factory Internet'> </a>
     <nav>
-        <a href="#1" class = {y < 780 ? "highlighted" : ""}>Home</a>
-        <a href="#2" class = {780 < y && y < 780 + 800 ? "highlighted" : ""}>Threats</a>
-        <a href="#3" class = {780 + 800 <= y ? "highlighted" : ""}>What We Do</a>
+        <a href="#Home" class = {y < 780 ? "highlighted" : ""}>Home</a>
+        <a href="#Threats" class = {780 < y && y < 780 + 800 ? "highlighted" : ""}>Threats</a>
+        <a href="#WhatWeDo" class = {780 + 800 <= y ? "highlighted" : ""}>What We Do</a>
     </nav>
 </header>
 

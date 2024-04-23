@@ -13,6 +13,10 @@
     import './styles.css'
 </script>
 
+<svelte:head>
+    <title>Cybersecurity - Factory Internet</title> 
+    <link rel="icon" href="https://www.factoryinternet.co.uk/wp-content/uploads/2021/03/cropped-Globe-w-white-circle-32x32.png">
+</svelte:head>
 <body>
     <Header />
 

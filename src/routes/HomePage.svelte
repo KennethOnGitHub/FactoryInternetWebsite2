@@ -1,6 +1,6 @@
 
 
-<div>
+<div  id = "Home">
     <slot></slot>
 </div>
 

@@ -3,7 +3,7 @@
 </script>
 
 
-<div id="3">
+<div id="WhatWeDo">
     <slot></slot>
 
 </div>
